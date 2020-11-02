@@ -2,9 +2,6 @@ import pandas
 import json
 from GetSoup import get_soup
 from SearchEvent import search
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
 
 # Vamos converter a tabela em um dicionário, então iremos iniciá-lo aqui
 horarios = {}
