@@ -31,12 +31,12 @@ Este repositório é composto pelos seguintes arquivos:
 | [WebScraper-EventsUFSM.py](/PET%20Redação%20-%20Web%20Scraping/WebScraper-EventsUFSM.py) | Arquivo principal que para buscar os eventos |
 | [WebScraper-BusSchedule.py](/PET%20Redação%20-%20Web%20Scraping/WebScraper-BusSchedule.py) | Arquivo principal que busca os horários dos ônibus |
 | [ExampleClick.py](/PET%20Redação%20-%20Web%20Scraping/ExampleClick.py) | Exemplo de uma simulação de click. |
-| [GetSoup.py](/PET%20Redação%20-%20Web%20Scraping/GetSoup.py) | Arquivo arquivo com função auxiliar para buscar o soup. |
+| [GetSoup.py](/PET%20Redação%20-%20Web%20Scraping/GetSoup.py) | Arquivo com função auxiliar para buscar o soup. |
 | [SearchEvent.py](/PET%20Redação%20-%20Web%20Scraping/SearchEvent.py) | Arquivo com função auxiliar para buscar os eventos. |
-| [Horarios.json](/PET%20Redação%20-%20Web%20Scraping/Horarios.json) | Arquivo gerado através do código. |
+| [Horarios.json](/PET%20Redação%20-%20Web%20Scraping/Horarios.json) | Arquivo gerado através do código executado. |
 
 ### :pushpin: ExampleClick.py e o Driver
-Para executar o arquivo [ExampleClick.py](/PET%20Redação%20-%20Web%20Scraping/ExampleClick.py) você deve ter o **driver** do navegador que for utilizar. Por padrão, está definido o chrome na linha 13 (`driver = webdriver.Chrome(options=option)`), com a importação na linha 3 (`from selenium.webdriver.chrome.options import Options`). Pode-se substituir pelo Firefox, Edge, etc., devendo ser alteradas essas linhas de acordo, mas ainda será necessário o driver.
+Para executar o arquivo [ExampleClick.py](/PET%20Redação%20-%20Web%20Scraping/ExampleClick.py) você deve ter o **driver** do navegador que for utilizar. Por padrão, está definido o do Chrome, na linha 13 (`driver = webdriver.Chrome(options=option)`), com a sua importação sendo feita na linha 3 (`from selenium.webdriver.chrome.options import Options`). Pode-se substituir pelos drivers do Firefox, Edge, etc., devendo ser alteradas essas linhas de acordo, mas ainda será necessário o driver.
 - [Download driver Chrome](https://chromedriver.chromium.org/downloads);
 - [Download driver Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/);
 - [Download driver Firefox](https://github.com/mozilla/geckodriver/releases/tag/v0.28.0);
