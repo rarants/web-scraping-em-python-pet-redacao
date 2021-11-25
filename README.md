@@ -2,7 +2,7 @@
 # Web Scraping em Python
 Desenvolvido para o **PET-Redação** do Programa de Educação Tutorial (PET) da UFSM, que se encontra [aqui](https://www.ufsm.br/pet/sistemas-de-informacao/2020/11/03/web-scraping-em-python/). Este arquivo usa os sites iniciais da UFSM, encontrados [aqui](https://www.ufsm.br/) e [aqui](https://www.ufsm.br/onibus-horarios?linha=UFSM%20BOMBEIROS&dia=DIAS%20%C3%9ATEIS) e tem por objetivo um estudo básico de Web Scraping em Python. :sparkles:
 ## :clipboard: Requerimentos
-Ter instalado o Python 3 e as bibliotecas Requirements, BeautifulSoup e Pandas e a ferramenta Selenium.
+Ter instalado o Python 3 e as bibliotecas Requests, BeautifulSoup e Pandas e a ferramenta Selenium.
 ### :wrench: Instalando no Windows
 1. **Python 3:** baixe o [instalador](https://www.python.org/downloads/) e siga as instruções;
 2. **Bibliotecas:**
